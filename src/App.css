@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    background-color: #F55A5A;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Globe{
+    width: 30px;
+}
+
+.Card-Body{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.Info{
+    width: 450px;
+}
+
+.MainImg{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.Pin{
+    width: 8px;
+}
+
+h4{
+    color: #2B283A;
+    letter-spacing: 1.7px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+h1{
+    color:#2B283A;
+    line-height: 30px;
+    padding-top: 20px
+}
+
+.GoogleP{
+    padding-left: 60px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    cursor: pointer;
+}
+
+.Address{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.Main-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dates{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #2B283A;
+    font-weight: 700;
+}
+
+.Descript{
+    color:#2B283A;
+    line-height: 150%;
+    font-weight: 400;
+}
